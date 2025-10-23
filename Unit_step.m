@@ -1,0 +1,11 @@
+clc;
+close all;
+clear all;
+n = -10 : 10;
+u = [zeros(1 , 10)  ones(1,11)];
+r=n.*u;
+stem (n , r);
+axis([-12 12 -5 5]);
+xlabel('Time Index');
+ylabel('Amplitude');
+title('Unit ramp Sequence');

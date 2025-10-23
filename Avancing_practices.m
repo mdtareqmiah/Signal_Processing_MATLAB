@@ -1,0 +1,13 @@
+clc;
+clear all;
+close all;
+n1=input('Enter the value for shift: ');
+n=input('Enter the value for range "-2:2" :');
+x=input('Enter the value for renge index: ');
+subplot(3,1,1);
+stem(n,x);
+grid on;
+m=n+n1;
+subplot(3,1,2);
+stem(m,x);
+grid on;

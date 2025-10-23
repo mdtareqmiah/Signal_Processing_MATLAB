@@ -1,0 +1,13 @@
+clc;
+clear all;
+close all;
+n1=input('n1: ');
+n=input('n: ');
+x=input('x: ');
+subplot(3,1,1);
+stem(n,x);
+grid on;
+m=n+n1;
+subplot(3,1,2);
+stem(m,x);
+grid on;
